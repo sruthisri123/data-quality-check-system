@@ -1,40 +1,32 @@
-# 🧩 Data Validator - Java Project
+# Data Quality Check System
 
-A mini Java project that checks employee data for missing or invalid fields and prints a validation report.  
-It simulates how a Quality Engineer performs **data accuracy and completeness checks** in automation testing.
+This project is a simple data validation system developed as an academic project.
+It checks datasets for common data quality issues and helps improve data reliability.
 
-## 🔍 Key Highlights
-- Detects missing, empty, or "null" values in sample data  
-- Prints a clear report with accuracy percentage  
-- Demonstrates programming logic and analytical thinking  
-- 100% written in **core Java** — no frameworks
+## Features
+- Detects missing (null) values
+- Identifies duplicate records
+- Validates basic data formats
+- Generates a simple quality summary
 
-## 💡 Why I Built This
-I wanted to understand how QA engineers use logic to find data issues.  
-This project helped me apply loops, condition checks, and reporting — just like real data validation scripts.
+## Technologies Used
+- Java
+- File Handling
+- Basic Data Validation
 
-## ▶️ How to Run
-1. Save the code as `data_quality_check.java`  
-2. Open terminal and compile:  
-javac data_quality_check.java
+## Project Flow
+Input Dataset  
+→ Data Validation Checks  
+→ Error Detection  
+→ Quality Summary Output
 
-arduino
-Copy code
-3. Then run:  
-java data_quality_check
+## How to Run
+1. Clone the repository
+2. Open the project in Eclipse or any Java IDE
+3. Run the main Java file
+4. Provide input data file if required
+5. View validation results in console/output file
 
-shell
-Copy code
-
-## 📊 Sample Output
----- Employee Data Validation Report ----
-
-✅ Record 1 is valid.
-⚠️ Record 2 has missing or invalid data.
-⚠️ Record 3 has missing or invalid data.
-⚠️ Record 4 has missing or invalid data.
-⚠️ Record 5 has missing or invalid data.
-
-Total Records: 5
-Invalid Records: 4
-Overall Data Accuracy: 20.00%
+## Purpose
+This project was created to understand basic data validation concepts,
+file handling, and Java programming fundamentals.
